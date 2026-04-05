@@ -32,5 +32,14 @@ namespace Demo1
             textBox2.Text = Total.ToString();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int numero1 = 11;
+            int numero2 = 5;
+            int Total = numero1 * numero2;
+
+            textBox3.Text = Total.ToString();
+        }
     }
 }
