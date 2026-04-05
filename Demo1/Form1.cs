@@ -30,6 +30,7 @@ namespace Demo1
             int Total = numero1 - numero2;
 
             textBox2.Text = Total.ToString();
+
         }
     }
 }
